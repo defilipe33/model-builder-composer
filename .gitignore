@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local application state and secrets
+.env
+*.log
+
+# WaterGEMS models, SQLite databases and backups
+*.sqlite
+*.wtg
+*.wtg.sqlite
+*.bak
+
+# Build and installer artifacts
+build/
+dist/
+*.spec
+*.exe
+*.msi
+*.zip
+
+# Editor/OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
